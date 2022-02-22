@@ -1,0 +1,120 @@
+@font-face {
+  font-family: myFont;
+  src: url(./IRAN_Sans.ttf);
+}
+
+* {
+  font-family: myFont; 
+}
+
+
+body{
+    background-color: #e8e8e8;
+    background-image: url("./assets/bodyback.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+  }
+
+.fat-nav-text{
+    text-align: center;
+    color: white;
+  }
+
+.fat-nav{
+    background-color: #3aa97f;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.fat-header{
+    background-color: #f22437;
+}
+
+.fat-anarANDspansers{
+  padding-right: 0;
+  margin-top: 5px;
+}
+
+.fat-anar{
+  width:60%
+}
+
+.fat-nav-spanser{
+  border-radius: 0.15rem;
+  padding: 0 1rem;
+  width: 38vw;
+}
+
+.fat-nav-spanser li{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fat-firstBtn{
+  margin-bottom: 8px;
+}
+
+.fat-carousel{
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+.item img{
+  border-radius: 0.35rem;
+}
+
+.fat-footer{
+    background-color: #f22437;
+}
+
+.pishgaman{
+  width:75% ;
+  margin-top: 5px;
+}
+
+@media all and (max-width: 1000px){
+  .fat-nav-spanser li{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media all and (max-width: 992px){
+  .fat-anar{
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 768px){
+  .fat-nav-spanser{
+    border-radius: 0.15rem;
+    padding: 0 1rem;
+    width: 48vw;
+    margin-bottom: 8px;
+  }
+  .fat-yaldaimg{
+    width: 80%;
+  }
+  .fat-anar{
+    
+  }
+}
+
+@media all and (max-width: 460px){
+  .fat-nav-spanser{
+    padding: 0;
+  }
+  .fat-nav-spanser li{
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+  }
+  .pishgaman{
+    margin-top: 0;
+  }
+}
